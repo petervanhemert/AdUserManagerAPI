@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AdUserManagerAPI.Controllers
+namespace AdUserManagerAPI._03_WebApi
 {
     [Authorize]
     [Route("api/[controller]")]
